@@ -65,12 +65,12 @@ insert into siswa values(
     -> '2');
 update siswa set tempat_lahir='BANDUNG'
     -> WHERE
-    -> nis='1210018';
+    -> nis='12100018';
 update siswa set
     -> tanggal_lahir='2005-05-05',
     -> kelas='11-RPL-1'
     -> WHERE
-    -> nis='1210018';
+    -> nis='12100018';
 delete from siswa
     -> where nis='12100018';
 select *from siswa;
